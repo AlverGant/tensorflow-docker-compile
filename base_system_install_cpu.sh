@@ -8,11 +8,9 @@ sudo apt -y update
 sudo apt -y upgrade
 
 # Install Base image pre-requisites
-sudo apt install -y libprotobuf-dev libleveldb-dev libsnappy-dev \
-libopencv-dev libhdf5-serial-dev protobuf-compiler libopenblas-dev \
-libgflags-dev libgoogle-glog-dev liblmdb-dev python-dev \
-software-properties-common git gfortran python-numpy vim \
-python-scipy cmake libtbb-dev libfreetype6-dev feh \
+sudo apt install -y python-dev \
+software-properties-common git vim \
+cmake libfreetype6-dev feh \
 apt-transport-https ca-certificates curl
 
 # Install docker Community Edition
