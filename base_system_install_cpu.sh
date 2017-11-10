@@ -31,7 +31,7 @@ sudo apt-get -y autoremove
 mkdir "$HOME"/tensorflow-cpu
 cd "$HOME"/tensorflow-cpu
 # Create DockerFile
-wget -c https://raw.githubusercontent.com/AlverGant/neural-style-transfer-docker/master/Dockerfile_CPU -O Dockerfile
+wget -c https://raw.githubusercontent.com/AlverGant/tensorflow-docker-compile/master/Dockerfile -O Dockerfile
 
 # "compile" docker images
 sudo docker build -t tensorflow-cpu .
